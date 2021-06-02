@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/shamahoque/mern-mediastream",
   "main": "./dist/server.generated.js",
+  "type": "module",
   "scripts": {
     "development": "nodemon",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
